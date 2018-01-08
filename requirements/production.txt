@@ -1,0 +1,9 @@
+# Production requirements for the project.
+
+-r base.txt
+
+gevent==1.2.2
+gunicorn==19.7.1
+django-storages==1.6.5
+django-anymail==1.2
+raven==6.4.0
