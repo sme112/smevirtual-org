@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Production settings for the project.
 
@@ -10,7 +11,7 @@ Production settings for the project.
 
 import logging
 
-from .base import *
+from .common import *
 
 # SECRET CONFIGURATION
 # ------------------------------------------------------------------------------

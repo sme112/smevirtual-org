@@ -1,6 +1,6 @@
 # Test requirements for the project.
 
--r base.txt
+-r common.txt
 
 coverage==4.4.2
 flake8==3.5.0 # pyup: != 2.6.0

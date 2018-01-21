@@ -1,6 +1,6 @@
 # Production requirements for the project.
 
--r base.txt
+-r common.txt
 
 gevent==1.2.2
 gunicorn==19.7.1

@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 """
-Local (development) settings for the project.
+Development settings for the project.
 
 - Run in Debug mode.
 - Use console backend for emails.
@@ -7,7 +8,7 @@ Local (development) settings for the project.
 - Add django-extensions.
 """
 
-from .base import *
+from .common import *
 
 # DEBUG CONFIGURATION
 # ------------------------------------------------------------------------------

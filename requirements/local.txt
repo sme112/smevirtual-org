@@ -1,6 +1,6 @@
 # Local (development) requirements for the project.
 
--r base.txt
+-r common.txt
 
 coverage==4.4.2
 django-coverage-plugin==1.5.0

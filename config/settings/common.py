@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Base settings for the project.
 

@@ -1,10 +1,11 @@
+# -*- coding: utf-8 -*-
 """
 Test settings for the project.
 
 - Used to run tests locally and on a CI server.
 """
 
-from .base import *
+from .common import *
 
 # DEBUG CONFIGURATION
 # ------------------------------------------------------------------------------
