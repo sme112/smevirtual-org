@@ -1,5 +1,5 @@
 [run]
-include = smevirtual/*
+include = smevirtual_site/*
 omit = *migrations*, *tests*
 plugins =
     django_coverage_plugin

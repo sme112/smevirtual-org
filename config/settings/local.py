@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Development settings for the project.
+Local (development) settings for the project.
 
 - Run in Debug mode.
 - Use console backend for emails.
