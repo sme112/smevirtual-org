@@ -228,7 +228,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-smevirtual_site/media/
+smevirtual/media/
 
 # Added to maintain local compose files which are ignored by something above.
 # See issue https://github.com/pydanny/cookiecutter-django/issues/1321

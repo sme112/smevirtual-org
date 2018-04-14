@@ -1,6 +1,6 @@
 files:
   include:
-    - 'smevirtual_site/static/sass/**/*'
+    - 'smevirtual/static/sass/**/*'
 
 options:
   merge-default-rules: false

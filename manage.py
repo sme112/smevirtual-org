@@ -16,6 +16,6 @@ if __name__ == '__main__':
         raise
 
     current_path = os.path.dirname(os.path.abspath(__file__))
-    sys.path.append(os.path.join(current_path, 'smevirtual_site'))
+    sys.path.append(os.path.join(current_path, 'smevirtual'))
 
     execute_from_command_line(sys.argv)
