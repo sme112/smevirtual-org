@@ -1,7 +1,0 @@
-coverage
-django-coverage-plugin
-django-test-plus
-factory_boy
-pytest>=3.5.0
-pytest-django>=3.1.2
-pytest-sugar>=0.9.1

@@ -24,7 +24,7 @@
         "jest"
     ],
     "include": [
-        "./smevirtual/static/scripts/**/*"
+        "./client/scripts/**/*"
     ],
     "types": [
         "typePatches"

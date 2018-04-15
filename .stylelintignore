@@ -1,6 +1,6 @@
 .sass-cache
 node_modules
-smevirtual/static/build
+smevirtual/client/build
 smevirtual/static/dist
 generated
 coverage

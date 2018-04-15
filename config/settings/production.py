@@ -58,7 +58,7 @@ X_FRAME_OPTIONS = 'DENY'
 # ------------------------------------------------------------------------------
 # Hosts/domain names that are valid for this site.
 # See https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['smevirtual.org', ])
+ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['smevirtual.com', ])
 
 # GUNICORN CONFIGURATION
 # ------------------------------------------------------------------------------
@@ -106,9 +106,9 @@ COMPRESS_ENABLED = env.bool('COMPRESS_ENABLED', default=True)
 # EMAIL CONFIGURATION
 # ------------------------------------------------------------------------------
 DEFAULT_FROM_EMAIL = env('DJANGO_DEFAULT_FROM_EMAIL',
-                         default='SME Virtual Community <hello@smevirtual.org>')
+                         default='SME Virtual Network <hello@smevirtual.com>')
 EMAIL_SUBJECT_PREFIX = env('DJANGO_EMAIL_SUBJECT_PREFIX',
-                           default='[SME Virtual Community]')
+                           default='[SME Virtual Network]')
 SERVER_EMAIL = env('DJANGO_SERVER_EMAIL', default=DEFAULT_FROM_EMAIL)
 
 # TODO: Fix this for SendGrid.

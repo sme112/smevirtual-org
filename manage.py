@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# Copyright (C) SME Virtual Network contributors. All rights reserved.
+# See LICENSE in the project root for license information.
 
 import os
 import sys
