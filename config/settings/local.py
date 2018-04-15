@@ -38,6 +38,17 @@ CACHES = {
     }
 }
 
+# SITE CONFIGURATION
+# ------------------------------------------------------------------------------
+# Hosts/domain names that are valid for this site.
+# See https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
+ALLOWED_HOSTS = [
+    "localhost",
+    "0.0.0.0",
+    "127.0.0.1",
+    "lvh.me",
+]
+
 # DJANGO DEBUG TOOLBAR CONFIGURATION
 # ------------------------------------------------------------------------------
 MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]

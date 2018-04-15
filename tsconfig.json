@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "outDir": "./smevirtual_site/static/dist/",
+        "outDir": "./smevirtual/static/dist/",
         "module": "commonjs",
         "target": "es5",
         "lib": [
@@ -24,7 +24,7 @@
         "jest"
     ],
     "include": [
-        "./smevirtual_site/static/scripts/**/*"
+        "./client/scripts/**/*"
     ],
     "types": [
         "typePatches"
