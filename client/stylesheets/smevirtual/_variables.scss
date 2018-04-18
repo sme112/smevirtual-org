@@ -1,3 +1,5 @@
+// stylelint-disable color-hex-length
+
 /*!
  * Copyright (C) SME Virtual Network contributors. All rights reserved.
  * See LICENSE in the project root for license information.
@@ -10,13 +12,94 @@
 //== Colors
 //
 
-$brand1: #000000 !default;
+$brand-01: #3d70b2 !default;
+$brand-02: #5596e6 !default;
+$brand-03: #41d6c3 !default;
 
-//== Scaffolding
-//
+$ui-01:    #ffffff !default;
+$ui-02:    #f5f7fa !default;
+$ui-03:    #f0f3f6 !default;
+$ui-04:    #dfe3e6 !default;
+$ui-05:    #8c9ba5 !default;
 
-//** Background color for `<body>`.
-$body-background: #ffffff !default;
+$text-01:  #152934 !default;
+$text-02:  #5a6872 !default;
+$text-03:  #5a6872 !default;
+
+$inverse-01: #ffffff !default;
+
+$field-01:   rgba(60, 112, 178, .1) !default;
+
+$support-01: #e0182d !default;
+$support-02: #5aa700 !default;
+$support-03: #efc100 !default;
+$support-04: #5aaafa !default;
+
+//** Global background color for `<body>`.
+$body-background-color: $ui-01 !default;
 
 //** Global text color on `<body>`.
-$text-color:      #333333 !default;
+$text-color:            $text-01 !default;
+
+//** Global text link color.
+$link-color:            $brand-01 !default;
+//** Link hover color.
+$link-hover-color:      $brand-02 !default;
+//** Link decoration.
+$link-decoration:       underline !default;
+//** Link hover decoration.
+$link-hover-decoration: underline !default;
+
+//== Typography
+//
+
+// stylelint-disable value-keyword-case
+$headings-font-family:    "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$body-font-family:        "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$monospace-font-family:   SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace !default;
+// stylelint-enable value-keyword-case
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`.
+//** Documentation (for prolonged reading) font size.
+$body-font-size-large:        $font-size-base * 1 !default; // 16px
+//** Standard UI font size.
+$body-font-size-standard:     $font-size-base * .875 !default; // 14px
+
+$font-weight-regular:         400 !default;
+$font-weight-bold:            700 !default;
+
+$line-height-base:            1.5 !default;
+$line-height-headings:        1.25 !default;
+
+// Note: The heading font sizes below are based on the 'Augmented Fourth' scale.
+// See http://type-scale.com/
+$h1-font-size:                $font-size-base * 3.998 !default;
+$h2-font-size:                $font-size-base * 2.827 !default;
+$h3-font-size:                $font-size-base * 1.999 !default;
+$h4-font-size:                $font-size-base * 1.414 !default;
+$h5-font-size:                $font-size-base * 1 !default;
+$h6-font-size:                $font-size-base * .707 !default;
+
+//** Table, figure and diagram caption font size.
+$captions-font-size:          $h6-font-size !default;
+
+//== Spacing
+//
+
+$spacer: 1rem !default;
+
+$headings-margin-bottom:      ($spacer / 2) !default;
+$body-margin-bottom:          $spacer !default;
+
+//== Tables
+//
+
+$table-cell-padding-top:      $spacer * 2 !default;
+$table-cell-padding-bottom:   $spacer * 2 !default;
+
+$table-caption-color:         $text-02 !default;
+
+//== Forms
+//
+
+$label-margin-bottom:         .5rem !default;

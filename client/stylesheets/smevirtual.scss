@@ -5,6 +5,8 @@
 
 // Core variables and mixins
 @import "smevirtual/variables";
+@import "smevirtual/mixins";
+@import "smevirtual/resets";
 
 // Django-specific
 @import "smevirtual/django";

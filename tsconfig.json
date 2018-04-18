@@ -13,20 +13,17 @@
         "noImplicitReturns": true,
         "noImplicitThis": true,
         "noImplicitAny": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
     },
     "exclude": [
-        "node_modules",
-        "build",
-        "scripts",
-        "acceptance-tests",
-        "webpack",
-        "jest"
+        "node_modules"
     ],
     "include": [
-        "./client/scripts/**/*"
+        "./client/**/*"
     ],
     "types": [
-        "typePatches"
+        "node",
+        "typePatches",
+        "webpack-env",
     ]
 }

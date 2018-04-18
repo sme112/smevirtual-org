@@ -16,5 +16,12 @@ All source code content within this respository is licensed under the
 
 ### Thanks and Attributions
 
+Without the power of open-source, all software would be substaintially more
+difficult to develop, maintain and ship.
+
 * Parts of this codebase are based on the generated files from the
 [cookiecutter-django](https://github.com/pydanny/cookiecutter-django).
+The Cookiecutter Django project is licensed under the BSD 3-Clause.
+* Portions of the design styles and colors inspired by IBM's
+[Carbon Design System](http://carbondesignsystem.com/). The Carbon Design System
+is licensed under Apache 2.0.

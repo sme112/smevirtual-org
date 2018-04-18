@@ -1,0 +1,23 @@
+/*!
+ * Copyright (C) SME Virtual Network contributors. All rights reserved.
+ * See LICENSE in the project root for license information.
+ *
+ * Copyright (c) 2011-2018 Twitter, Inc.
+ * Copyright (c) 2011-2018 The Bootstrap Authors
+ * Bootstrap is licensed MIT. https://github.com/twbs/bootstrap
+ */
+
+//
+// Hover Mixins
+// --------------------------------------------------
+
+@mixin hover {
+  &:hover { @content; }
+}
+
+@mixin hover-focus {
+  &:hover,
+  &:focus {
+    @content;
+  }
+}

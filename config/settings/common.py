@@ -10,7 +10,9 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 """
 import environ
 
+# Repository root.
 ROOT_DIR = environ.Path(__file__) - 3  # (smevirtual/config/settings/base.py - 3 = smevirtual/)
+# Django applications root.
 APPS_DIR = ROOT_DIR.path('smevirtual')
 
 # Load environment variables from the host operating system.
@@ -45,6 +47,7 @@ THIRD_PARTY_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'webpack_loader',
 ]
 
 # Apps specific to this project.
@@ -259,10 +262,14 @@ LOGIN_URL = 'account_login'
 # ------------------------------------------------------------------------------
 AUTOSLUG_SLUGIFY_FUNCTION = 'slugify.slugify'
 
-# DJANGO COMPRESSOR CONFIGURATION
+# WEBPACK LOADER
 # ------------------------------------------------------------------------------
-INSTALLED_APPS += ['compressor']
-STATICFILES_FINDERS += ['compressor.finders.CompressorFinder']
+WEBPACK_LOADER = {
+    'DEFAULT': {
+        'BUNDLE_DIR_NAME': 'dist/',
+        'STATS_FILE': str(ROOT_DIR.path('webpack-stats.json')),
+    }
+}
 
 # Location of root django.contrib.admin URL, use {% url 'admin:index' %}
 ADMIN_URL = r'^admin/'

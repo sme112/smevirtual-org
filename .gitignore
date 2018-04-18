@@ -298,4 +298,6 @@ typings/
 # dotenv environment variables file
 .env
 
+webpack-stats.json
+
 # End of https://www.gitignore.io/api/macos,python,django,vagrant,windows,intellij+all,visualstudiocode

@@ -96,13 +96,6 @@ INSTALLED_APPS += ['gunicorn', ]
 # ------------------------------------------------------------------------------
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# DJANGO COMPRESSOR CONFIGURATION
-# ------------------------------------------------------------------------------
-# TODO: Change over to Google Cloud Storage.
-# COMPRESS_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-COMPRESS_URL = STATIC_URL
-COMPRESS_ENABLED = env.bool('COMPRESS_ENABLED', default=True)
-
 # EMAIL CONFIGURATION
 # ------------------------------------------------------------------------------
 DEFAULT_FROM_EMAIL = env('DJANGO_DEFAULT_FROM_EMAIL',
